@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Age In Minutes</string>
+    <string name="SelectedDate">EX)1995.06.01</string>
+    <string name="ListTime">지난 시간</string>
+    <string name="LastDay">지난 일</string>
 </resources>

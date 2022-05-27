@@ -4,67 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bgColor"
-    android:gravity="center_horizontal"
+    android:background="@color/white"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="CALCULATE YUOR"
-        android:textColor="#6667AB"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="@color/bdColor3"
-        android:padding="10dp"
-        android:text="AGE"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SIMPLE DAY "
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="IN MINUTES"
-        android:textColor="#6667AB"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:gravity="top"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_specialDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="기념일"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSelectedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/SelectedDate"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
 
     <Button
         android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:backgroundTint="@color/btnBgColor"
-        android:text="SELECT DATE"
-
-        android:textColor="@color/textBlue"
+        android:text="날짜를 선택해 주세요."
+        android:textColor="#000000"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/tvSelectedDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="31.05.1988"
-        android:textColor="#6667AB"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Selected Date"
-        android:textColor="@color/DeepBlue"
+        android:layout_marginTop="25dp"
+        android:text="@string/ListTime"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -73,18 +81,18 @@
         android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         android:text="14000000"
-        android:textColor="#6667AB"
+        android:textColor="#000000"
         android:textSize="35sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Selected Date"
-        android:textColor="@color/DeepBlue"
+        android:layout_marginTop="25dp"
+        android:text="@string/LastDay"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -92,14 +100,11 @@
         android:id="@+id/tvAgeDay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         android:text="14000000"
-        android:textColor="#6667AB"
+        android:textColor="#000000"
         android:textSize="35sp"
         android:textStyle="bold" />
-
-
-
 
 
 </LinearLayout>

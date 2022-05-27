@@ -44,25 +44,25 @@ class MainActivity : AppCompatActivity() {
 
                     Toast.makeText(
                         this,
-                        "Year was $selectedYear, month was ${selectedMonth + 1}, day of month was " +
+                        " $selectedYear, ${selectedMonth + 1}, " +
                                 "$selectedDayOfMonth", Toast.LENGTH_LONG
                     ).show()
 
-                    val selectedDate = "$selectedDayOfMonth/${selectedMonth + 1}/$selectedYear"
+                    val selectedDate = "$selectedYear/${selectedMonth + 1}/$selectedDayOfMonth"
 
                     tvSelectedDate?.text = selectedDate
 
-                    val sdf = SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH)
+                    val sdf = SimpleDateFormat("yyyy/MM/dd", Locale.ENGLISH)
 
                     val theDate = sdf.parse(selectedDate)
                     theDate?.let {
-                        val selectedDateInMinutes = theDate.time / 60000
+                        val selectedDateInMinutes = theDate.time / 3600000
                         val selectedDateInDays = theDate.time / 86400000
 
                         val currentDate = sdf.parse(sdf.format(System.currentTimeMillis()))
                         currentDate?.let {
 
-                            val currentDateInMinutes = currentDate.time / 60000
+                            val currentDateInMinutes = currentDate.time / 3600000
                             val currentDateInDays = currentDate.time / 86400000
 
                             val differenceInMinutes = currentDateInMinutes - selectedDateInMinutes
