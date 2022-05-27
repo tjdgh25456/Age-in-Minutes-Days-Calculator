@@ -1,10 +1,10 @@
 # QuizApp
 
 ## ✍️ Projects
-  <img src=https://user-images.githubusercontent.com/45085480/166191289-a5e33cc0-77a1-4ec1-ab99-11d6f62dcde0.png>
+  <img src=[https://user-images.githubusercontent.com/45085480/166191289-a5e33cc0-77a1-4ec1-ab99-11d6f62dcde0.png](https://user-images.githubusercontent.com/45085480/170645155-b460abc5-a98c-4f82-a511-7b152ceb5d77.png)>
 
 
-> 2022/04/01 -> 2022/04/10
+> 2022/04/15 -> 2022/04/20
 > **Android Developer**
 
 
@@ -14,8 +14,7 @@
 </div>
 
 - Target
-    - 국기의 이름을 모르는 사람들을 위해 퀴즈를 통해 국기에 대해 정보를 알수 있도록 제작한 앱이다.
-
+    - 사용자가 원하는 특정 날짜를 지정하여 지나간 날짜와 시간의 정보를 보여주는 앱이다.
 <br/>
 
 ## 🛠 Skills
