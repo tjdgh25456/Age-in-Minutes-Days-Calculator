@@ -1,7 +1,7 @@
-# QuizApp
+# SIMPLE DAY 
 
 ## ✍️ Projects
-  <img src=[https://user-images.githubusercontent.com/45085480/166191289-a5e33cc0-77a1-4ec1-ab99-11d6f62dcde0.png](https://user-images.githubusercontent.com/45085480/170645155-b460abc5-a98c-4f82-a511-7b152ceb5d77.png)>
+  <img src=https://user-images.githubusercontent.com/45085480/170645155-b460abc5-a98c-4f82-a511-7b152ceb5d77.png>
 
 
 > 2022/04/15 -> 2022/04/20
